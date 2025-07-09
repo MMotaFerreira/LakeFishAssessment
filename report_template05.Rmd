@@ -1,0 +1,95 @@
+---
+title: "Fish Community Ecological Assessment"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    df_print: paged
+    toc_float: true
+params:
+  evaluator: "Unknown"
+  lake: "Unnamed Lake"
+  year: 2025
+  Fish_table: NULL
+  breakdown_table: NULL
+  FreqSps_ab_table: NULL
+  Habitat_Guild_table: NULL
+  Spawning_Guild_table: NULL
+  metrics_table: NULL
+  EQR_table: NULL
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+```
+
+# Assessment Data
+
+**Evaluator:** `r params$evaluator`  
+**Lake:** `r params$lake`  
+**Year:** `r params$year`
+
+# Fish Community
+
+```{r}
+kbl(params$Fish_table, caption = "Input Community Table") |> 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = F)
+```
+
+# Presence/Absence metrics
+## Reference vs. Current Breakdown
+
+```{r}
+kbl(params$breakdown_table, digits = 1,
+      caption = "Summary of species and guild representation (with missing values)") |> 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = F)
+
+```
+
+# Abudance metrics
+## Frequent species
+```{r}
+kbl(params$FreqSps_ab_table, digits = 1,
+      caption = "Frequent species abundance score") |> 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = F)
+```
+## Habitat Guild scores
+```{r}
+kbl(params$Habitat_Guild_table, digits = 2,
+      caption = "Habitat guild score by guil and abundance class") |> 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = F)
+
+```
+## Spawning Guild scores
+```{r}
+kbl(params$Spawning_Guild_table, digits = 2,
+      caption = "Spawning guild score by guil and abundance class") |> 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = F)
+
+```
+
+# Assessment
+## Scores
+```{r}
+kbl(params$metrics_table, caption = "Metric Scores") |> 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = F)
+
+```
+
+## Total score and EQR
+```{r}
+kbl(params$EQR_table, digits = 2,
+    caption = "Total score and EQR") |> 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = F)
+```
+
