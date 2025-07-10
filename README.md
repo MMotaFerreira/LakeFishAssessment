@@ -89,4 +89,3 @@ This tool is based on the methodology described in:
     Ritterbusch et al. 2014
     DeLFI-Site documentation – "Short description of the German site-specific Lake Fish Index"
 
-Special thanks to the Fishery Research Center of Baden-Württemberg for the support and idea for this application.
