@@ -31,9 +31,6 @@ The system is designed to align with the **EU Water Framework Directive (WFD)** 
   - Presence of habitat and spawning guilds
   - Abundance of frequent species
   - Abundance distribution within habitat and spawning guilds
-- **Optional metrics** included:
-  - Bream growth
-  - Migrating species
 - Final output as:
   - **Total score**
   - **Ecological Quality Ratio (EQR)**
@@ -63,7 +60,7 @@ The fish community modelling follows these principles:
    - Add species and set their abundance class for both reference and current conditions.
 3. **Review and adjust functional guilds** for habitat and reproduction.
 4. **Run assessment**: Metrics are calculated automatically.
-5. **Download report** (PDF/HTML) with full evaluation and class boundaries.
+5. **Download report** (HTML) with full evaluation and class boundaries.
 
 ---
 
@@ -76,6 +73,11 @@ To run the app locally:
    ```r
    install.packages(c("shiny", "tidyverse", "DT", "readxl", "rmarkdown", "kableExtra"))
 ´´´
+## 🐛 Bugs & Suggestions
+
+If you find any bugs, want to suggest improvements, or have questions about the tool, feel free to reach out:
+
+📧 mario.mota.ferreira(at)gmail.com
 
 ## 📄 License
 
