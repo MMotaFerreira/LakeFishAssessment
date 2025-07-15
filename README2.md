@@ -80,12 +80,14 @@ The fish community modelling follows these principles:
     -   Add species and set their abundance class for both reference and
         current conditions. \### 📐 Abundance Classes
 
+|-----------------|-------------------------------|------------------------------|--------------------------|
 | Abundance Class | Scientific Samples (% number) | Fisheries Statistics (kg/ha) | Informational Sources    |
 |-----------------|-------------------------------|------------------------------|--------------------------|
 | 3               | \> 5%                         | \> 1 kg/ha                   | frequent, common, plenty |
 | 2               | 1–5%                          | 0.1–1 kg/ha                  | regular, steady          |
 | 1               | \< 1%                         | \< 0.1 Ind/km²               | rare, sporadic           |
 | 0               | –                             | –                            | absent                   |
+|-----------------|-------------------------------|------------------------------|--------------------------|
 
 <hr>
 
