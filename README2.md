@@ -87,12 +87,47 @@ The fish community modelling follows these principles:
 | 1               | \< 1%                         | \< 0.1 Ind/km²               | rare, sporadic           |
 | 0               | –                             | –                            | absent                   |
 
-| Abundance Class | Scientific Samples (% number) | Fisheries Statistics (kg/ha) | Informational Sources    |
-|-----------------|-------------------------------|------------------------------|--------------------------|
-| 3               | \> 5%                         | \> 1 kg/ha                   | frequent, common, plenty |
-| 2               | 1–5%                          | 0.1–1 kg/ha                  | regular, steady          |
-| 1               | \< 1%                         | \< 0.1 Ind/km²               | rare, sporadic           |
-| 0               | –                             | –                            | –                        |
+<hr>
+
+<table>
+  <thead>
+    <tr>
+      <th>Abundance Class</th>
+      <th>Scientific Samples (% number)</th>
+      <th>Fisheries Statistics (kg/ha)</th>
+      <th>Informational Sources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3</td>
+      <td>&gt; 5%</td>
+      <td>&gt; 1 kg/ha</td>
+      <td>frequent, common, plenty</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1–5%</td>
+      <td>0.1–1 kg/ha</td>
+      <td>regular, steady</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>&lt; 1%</td>
+      <td>&lt; 0.1 Ind/km²</td>
+      <td>rare, sporadic</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
 
 3.  **Review and adjust functional guilds** for habitat and
     reproduction.
