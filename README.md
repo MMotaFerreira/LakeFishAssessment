@@ -2,7 +2,7 @@
 
 This Shiny application replicates the **DeLFI-Site** module used in
 Germany to assess the ecological status of fish communities in lakes,
-based on the principles described in the official DeLFI documentation.
+based on the principles described in the official DeLFI documentation (Ritterbusch & Brämick, 2015).
 
 🔗 **Live app**: [LakeFishAssessmentApp on
 shinyapps.io](https://mmotaferreira.shinyapps.io/LakeFishAssessmentApp/)
@@ -153,9 +153,7 @@ about the tool, feel free to reach out:
 | \## 📄 License                                                                                                                                                                       |
 | This project is open-source and intended for educational and scientific use. It is not an official implementation of the DeLFI module and should not replace regulatory assessments. |
 
-## 📚 Acknowledgments
-
-This tool is based on the methodology described in:
+## 📚 References
 
 Gassner, H., Achleitner, D., Luger, M., Ritterbusch, D., Schubert, M., &
 Volta, P. (2014). Water framework directive intercalibration technical
