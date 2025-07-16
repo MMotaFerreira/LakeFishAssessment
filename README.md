@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Lake Fish Assessment App (DeLFI-Site Replica)
 
 This Shiny application replicates the **DeLFI-Site** module used in
