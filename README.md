@@ -105,7 +105,7 @@ The fish community modelling follows these principles:
 | Abundance of habitat guilds  | Guild score \> 4 | Guild score 2–4            | Guild score \< 2                            |
 | Abundance of spawning guilds |                  | likewise                   |                                             |
 
-Scoring is done stepwise for the two metrics ‘abundance of habitat and
+Guild scoring is done stepwise for the two metrics ‘abundance of habitat and
 spawning guilds’. First, the abundance classes within a guild are scored
 (e.g. littoral-rare, littoral-regular, littoral-frequent). This is done
 using the absolute values of the log(current species number/reference
