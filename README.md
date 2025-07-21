@@ -139,9 +139,9 @@ taken from the alpine intercalibration process (GASSNER et al. 2014).
 To run the app locally:
 
 1.  Install R and RStudio.
-2.  Install required packages: \`\`\`r install.packages(c("shiny",
-    "tidyverse", "DT", "readxl", "rmarkdown", "kableExtra")) ´´´ \
-3.  Download both files "AppXX.r" and "report_templateYY.Rmd". Run the first, the second is rmarkdown used to generate the html report.
+2.  Install required packages: ```r install.packages(c("shiny",
+    "tidyverse", "DT", "readxl", "rmarkdown", "kableExtra")) ``` 
+3.  Download the files to same directory and ). Open the "AppXX.r" file in RStudio and click ```Run App```. The "report_templateYY.Rmd" file is a rmarkdown file used to generate the html report.
 
 ### 🐛 Bugs & Suggestions
 
@@ -154,6 +154,7 @@ about the tool, feel free to reach out:
 ## 📄 License 
 This project is open-source and intended for educational and scientific use. It is not an official implementation of the DeLFI module and should not replace regulatory assessments.
 ---
+
 ## 📚 References
 
 Gassner, H., Achleitner, D., Luger, M., Ritterbusch, D., Schubert, M., &
