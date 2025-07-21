@@ -139,9 +139,11 @@ taken from the alpine intercalibration process (GASSNER et al. 2014).
 To run the app locally:
 
 1.  Install R and RStudio.
-2.  Install required packages: ```r install.packages(c("shiny",
-    "tidyverse", "DT", "readxl", "rmarkdown", "kableExtra")) ``` 
-3.  Download the files to same directory and ). Open the "AppXX.r" file in RStudio and click ```Run App```. The "report_templateYY.Rmd" file is a rmarkdown file used to generate the html report.
+2.  Install required packages:
+```
+r install.packages(c("shiny", "tidyverse", "DT", "readxl", "rmarkdown", "kableExtra"))
+``` 
+3.  Download the files to same directory. Open the "AppXX.r" file in RStudio and click ```Run App```. The "report_templateYY.Rmd" file is a rmarkdown file used to generate the html report.
 
 ### 🐛 Bugs & Suggestions
 
